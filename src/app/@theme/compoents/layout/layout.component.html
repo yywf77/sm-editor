@@ -1,0 +1,22 @@
+<nb-layout>
+    <nb-layout-header *ngIf="!isFullscreen()" fixed>
+        <header></header>
+        <ng-content select="menu-bar"></ng-content>
+    </nb-layout-header>
+
+    <nb-sidebar *ngIf="!isFullscreen()" tag="menu-sidebar" responsive>
+        <ng-content select="[nb-menu,tool-bar]"></ng-content>
+    </nb-sidebar>
+
+    <nb-layout-column class="layout-column">
+        <ng-content></ng-content>
+    </nb-layout-column>
+
+    <nb-layout-footer *ngIf="!isFullscreen()" fixed>
+        <footer></footer>
+    </nb-layout-footer>
+
+    <nb-sidebar tag="settings-sidebar" state="collapsed" end>
+        <ng-content select="settings-side"></ng-content>
+    </nb-sidebar>
+</nb-layout>

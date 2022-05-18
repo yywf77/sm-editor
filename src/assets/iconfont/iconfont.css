@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1650888626603') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bricks:before {
+  content: "\e602";
+}
+
+.icon-door:before {
+  content: "\e603";
+}
+
+.icon-fan:before {
+  content: "\e604";
+}
+
+.icon-valve:before {
+  content: "\e605";
+}
+
+.icon-pump:before {
+  content: "\e606";
+}
+
+.icon-laneway-edge:before {
+  content: "\e607";
+}
+
+.icon-perspective-camera:before {
+  content: "\e608";
+}
+
+.icon-orthographic-camera:before {
+  content: "\e609";
+}
+
+.icon-cone:before {
+  content: "\e60a";
+}
+
+.icon-cylinder:before {
+  content: "\e60b";
+}
+
+.icon-pipeline-node:before {
+  content: "\e60c";
+}
+
+.icon-pipeline:before {
+  content: "\e60d";
+}
+
+.icon-directional-light:before {
+  content: "\e60e";
+}
+
+.icon-point-light-source:before {
+  content: "\e60f";
+}
+
+.icon-sphere:before {
+  content: "\e610";
+}
+
+.icon-spot-light-source:before {
+  content: "\e611";
+}
+
+.icon-plane:before {
+  content: "\e612";
+}
+
+.icon-flowmeter:before {
+  content: "\e613";
+}
+
+.icon-box:before {
+  content: "\e614";
+}
+
+.icon-arrow:before {
+  content: "\e615";
+}
+
+.icon-ambient-light:before {
+  content: "\e616";
+}
+
+.icon-circle:before {
+  content: "\e617";
+}
+
+.icon-line:before {
+  content: "\e618";
+}
+
+.icon-scale:before {
+  content: "\e619";
+}
+
+.icon-rectangle:before {
+  content: "\e61a";
+}
+
+.icon-transform:before {
+  content: "\e61b";
+}
+
+.icon-hemisphere-light:before {
+  content: "\e61c";
+}
+
+.icon-rotation:before {
+  content: "\e61d";
+}
+
+.icon-station:before {
+  content: "\e61e";
+}
+
+.icon-difference:before {
+  content: "\e626";
+}
+
+.icon-drainer:before {
+  content: "\e627";
+}
+
+.icon-explosion:before {
+  content: "\e628";
+}
+
+.icon-subtract:before {
+  content: "\e629";
+}
+
+.icon-intersect:before {
+  content: "\e62a";
+}
+
+.icon-union:before {
+  content: "\e62b";
+}
+
+.icon-decompose:before {
+  content: "\e62c";
+}
+
+.icon-group:before {
+  content: "\e62d";
+}
+
+.icon-substation:before {
+  content: "\e62e";
+}
+
+.icon-cable:before {
+  content: "\e62f";
+}
+
+.icon-sensor:before {
+  content: "\e630";
+}
+

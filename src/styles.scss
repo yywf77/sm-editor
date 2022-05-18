@@ -1,0 +1,18 @@
+@use '@nebular/theme/styles/globals' as *;
+
+@use './app/@theme/styles/themes.scss' as *;
+@use './app/@theme/styles/gui-theme.scss' as *;
+
+@include nb-install() {
+  @include nb-theme-global();
+  @include gui-theme();
+
+  html{
+    font-size: 12px;
+  }
+  html,body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+};

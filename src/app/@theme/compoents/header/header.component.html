@@ -1,0 +1,31 @@
+<div class="header-container">
+  <div class="logo-container">
+    <a (click)="toggleSidebar()" href="#" class="sidebar-toggle">
+      <nb-icon *ngIf="isToggleSidebar" icon="outdent"></nb-icon>
+      <nb-icon *ngIf="!isToggleSidebar" icon="indent"></nb-icon>
+    </a>
+    <a class="logo" href="#" (click)="navigateHome()">
+      <nb-icon style="flex: none;"  icon="cube"></nb-icon>
+      <div style="flex:1;">
+        <span class="name">{{'project.name' | translate}}</span>
+        <p class="name-en">{{'project.name-en' | translate}}</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="header-container">
+  <nb-actions size="small">
+    <nb-action class="control-item" icon="eye" badgePosition="top end" [routerLink]="['/pages']"></nb-action>
+    <nb-action class="control-item" icon="edit" badgePosition="top end" [routerLink]="['/editor']"></nb-action>
+    <nb-action class="control-item" icon="envelope-o" badgePosition="top end" badgeStatus="warning" [badgeDot]="emailBadgeDot"></nb-action>
+    <nb-action class="control-item" icon="bell-o" badgePosition="top end" badgeStatus="danger" [badgeDot]="bellBadgeDot" [nbContextMenu]="menus" nbContextMenuTrigger="hover"></nb-action>
+    <nb-action class="user-action">
+      <nb-user [nbContextMenu]="userMenu"
+               [onlyPicture]="userPictureOnly"
+               [name]="user?.username"
+               [picture]="user?.picture">
+      </nb-user>
+    </nb-action>
+  </nb-actions>
+</div>

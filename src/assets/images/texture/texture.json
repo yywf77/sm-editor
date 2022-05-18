@@ -1,0 +1,10 @@
+{
+    "空":"",
+    "岩层":"assets/images/texture/alphaMap.jpg",
+    "砖块":"assets/images/texture/brick_bump.jpg",
+    "编织":"assets/images/texture/Carbon_Normal.png",
+    "灰色编织":"assets/images/texture/Carbon.png",
+    "岩浆":"assets/images/texture/lavatile.jpg",
+    "雪花":"assets/images/texture/snowflake2.png",
+    "透明雪花":"assets/images/texture/snowflake7_alpha.png"
+}
